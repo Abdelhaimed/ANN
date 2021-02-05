@@ -1,8 +1,5 @@
-# ANN
+
 # Artificial Neural Network for Hadwritten digit recognition
-# Yahia Asma,Bouaicha Mohammed Abd Elhai,Houari Houcine Abd Allatif
-# Universite Kasdi Merbah Ouargla ´
-# Faculte des Nouvelles Technologies de l’Information et de la Communication ´
 # Abstract
 Classification is an important data mining technique with a wide range of applications to classify the various
 types of data existing in almost all areas of our lives. In this study we are going to implement a handwritten
@@ -45,13 +42,13 @@ numbers made with many different flavors. We present
 in this study the solution to this problem by training the machine to recognizes the handwritten digit
 present in any image.
 # 3 Artificial neural network
-# 3.1 What is Artificial neural network
+3.1 What is Artificial neural network :
 Artificial Neural network is a machine learning algorithm and a programming paradigm ,it inspired by
 the biological neural networks that constitute animal
 brains, and it’s simply about telling the computer what
 to do by making it learn from data .
 1
-# 3.2 The architecture of an ANN
+ 3.2 The architecture of an ANN :
 Artificial Neural Networks are complex structures
 made of connected artificial neurons organized in layers
 :
@@ -63,23 +60,23 @@ next layer, and each such connection has a particular
 weight. Weights are assigned to a neuron based on its
 relative importance against other inputs.
 Figure 1: Artificial Neural Network architecture
-# 3.3 What is it used for
+ 3.3 What is it used for :
 Generally ANNs are invented to make computer acts
 like human and learns how to solve problems from a
 previous experience, and they are used for modelling
 non-linear problems like classification, clustering, prediction. . .
-# 3.4 How does it work
+ 3.4 How does it work :
 ANNs are based on predication the set of connection
 between neurons values, when we say predication it
 means that there is a probability in background. So
 the task is to get an output value for given input parameters(data) after being trained on similar data. [4].
-# 3.5 How do we train it
+ 3.5 How do we train it :
 To train the ANN model we need to follow this process:
 1. Feed forward propagation
 2. Back propagation
 3. Updating the weights and baises
-4 Conception
-# 4.1 Data set
+#4 Conception
+ 4.1 Data set
 The MNIST dataset is one of the most popular datasets
 available on the internet. It contains in total 70,000 labeled images of handwritten digits from zero to nine,
 60000 of them are specified for training and 10,000
@@ -232,7 +229,7 @@ the whole dataset.
 Figure 11: Evaluation function
 In the end of these iterations the network will be well
 trained to recognize handwritten digits.
-5 Implementation
+# 5 Implementation
 5.1 Evaluate the model
 Now that we have all the pieces we can call our functions to solve our problem.
 First we will load the data of training and testing
@@ -265,24 +262,10 @@ over the MNIST dataset, we have got an accuracy of
 90.68%, as a conclusion that this algorithm is effective
 for the handwriting digit classification and it can be
 usefully applied to other classification problems.
-6 Conclusion
+# 6 Conclusion
 In this study, we suggest a model for the detection of
 handwritten digits using ANN.This domain of neural
 networks is increasingly becoming a major player due
 to its ability to adapt to a wide range of problems in
 other domains and disciplines. Although it is not comparable with the power of the human brain, still it is
 the basic building block of the artificial intelligence especially with the evolution of the Big Data.
-References
-[1] Casper Hansen
-Neural Network From Scratch with NumPy and
-MNIST, url=”https://mlfromscratch.com/neuralnetwork-tutorial/”
-[2] Nielsen, Michael Neural Networks and Deep Learning 2015.
-[3] Zerium, Aegeus Good
-Audience,url=https://blog.goodaudience.com/artificialneural-networks-explained-436fcf36e75 24-07-
-2014.
-[4] Stevin Walczak, narciso Cerpa ScienceDirect,Artificial Neural Network,
-url=https://www.sciencedirect.com/topics/engineering/artificialneural-network
-[5] Jason Brownlee Difference Between a Batch and
-an Epoch in a Neural Network, Deep Learning,
-url=https://machinelearningmastery.com/differencebetween-a-batch-and-an-epoch/
-6
